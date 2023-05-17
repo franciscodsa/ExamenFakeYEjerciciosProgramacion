@@ -1,4 +1,4 @@
-package UT8.ejercicio01;
+package UT8.colecciones.ejercicio01;
 
 public class Hotel {
     private int idHotel;

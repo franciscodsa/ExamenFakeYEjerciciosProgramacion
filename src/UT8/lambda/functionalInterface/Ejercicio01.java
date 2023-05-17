@@ -1,6 +1,4 @@
-package UT8.lambda.ejercicio01;
-
-import java.util.Arrays;
+package UT8.lambda.functionalInterface;
 
 public class Ejercicio01 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package biblioteca;
+package UT7.biblioteca;
 
 public interface Prestable {
     void prestar();

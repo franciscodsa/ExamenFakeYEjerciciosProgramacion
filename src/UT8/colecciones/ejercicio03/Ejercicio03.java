@@ -1,4 +1,4 @@
-package UT8.ejercicio03;
+package UT8.colecciones.ejercicio03;
 
 import java.util.*;
 

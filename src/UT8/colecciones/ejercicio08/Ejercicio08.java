@@ -1,4 +1,4 @@
-package UT8.ejercicio08;
+package UT8.colecciones.ejercicio08;
 
 import java.util.HashMap;
 import java.util.Map;

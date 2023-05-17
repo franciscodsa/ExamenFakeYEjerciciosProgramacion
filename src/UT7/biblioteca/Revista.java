@@ -1,4 +1,4 @@
-package biblioteca;
+package UT7.biblioteca;
 
 public class Revista extends Publicacion {
     private int numero;

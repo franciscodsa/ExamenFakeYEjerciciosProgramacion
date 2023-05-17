@@ -1,10 +1,8 @@
-package UT8.lambda.ejercicio03;
+package UT8.lambda.comparator;
 
-import java.sql.Array;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) {

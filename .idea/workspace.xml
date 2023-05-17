@@ -1,14 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de32d2b7-7243-47a8-91a2-d6a02a6b6ff4" name="Changes" comment="" />
+    <list default="true" id="de32d2b7-7243-47a8-91a2-d6a02a6b6ff4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT10/Restaurantes.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT10/br.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT10/dataset_91007.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT10/ejercicio01/Ejercicio01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT10/ejercicio02/Ejercicio02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT10/ejercicio03/Ejercicio03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT10/ejercicio04/Ejercicio04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT10/ejercicio05/Ejercicio05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT10/nombres.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT7/biblioteca/Libro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT7/biblioteca/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT7/biblioteca/Prestable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT7/biblioteca/Publicacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT7/biblioteca/Revista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT7/empresa/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT7/empresa/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT7/empresa/Directivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT7/empresa/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT7/empresa/Empresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT7/empresa/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT7/empresa/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT7/figuras/Figura2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT7/figuras/Linea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT7/figuras/Punto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT7/figuras/Triangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT8/colecciones/ejercicio01/Hotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT8/colecciones/ejercicio01/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT8/colecciones/ejercicio01/Zona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT8/colecciones/ejercicio02/Ejercicio02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT8/colecciones/ejercicio03/Ejercicio03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT8/colecciones/ejercicio04/Ejercicio04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT8/colecciones/ejercicio05/Ejercicio05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT8/colecciones/ejercicio06/Ejercicio06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT8/colecciones/ejercicio08/Academico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT8/colecciones/ejercicio08/Ejercicio08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT8/lambda/comparator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT8/lambda/comparator/Paciente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT8/lambda/ejercicio02/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT8/lambda/ejercicio02/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT8/lambda/ejercicio02/lambdas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT8/lambda/functionalInterface/DeterminarSigno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT8/lambda/functionalInterface/Ejercicio01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT8/lambda/functionalInterface/PrimeroYUltimo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT8/lambda/functionalInterface/Print.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT8/lambda/functions/Functions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UT8/lambda/predicate/Predicados.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fake/ejercicio01/Ejercicio01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fake/ejercicio01/coches.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fake/ejercicio02/Atacantes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fake/ejercicio02/Defensores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fake/ejercicio02/Ejercicio02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fake/ejercicio02/Equipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fake/ejercicio02/Estadísticas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fake/ejercicio02/Jugador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fake/ejercicio02/Porteros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fake/ejercicio02/plantilla.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2P9xHVT28eAnvDw2vF9xhz0QqCx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -20,9 +96,100 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Francisco/IdeaProjects/UT7/src/fake/ejercicio02",
+    "settings.editor.selected.configurable": "Docker"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="UT8.lambda.ejercicio02" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Francisco\IdeaProjects\UT7\src\fake\ejercicio02" />
+      <recent name="C:\Users\Francisco\IdeaProjects\UT7\src\UT10" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="fake.ejercicio02" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.fake.ejercicio02.Ejercicio02">
+    <configuration name="Ejercicio01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fake.ejercicio01.Ejercicio01" />
+      <module name="Ejercicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fake.ejercicio01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ejercicio03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UT10.ejercicio03.Ejercicio03" />
+      <module name="Ejercicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UT10.ejercicio03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ejercicio04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UT10.ejercicio04.Ejercicio04" />
+      <module name="Ejercicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UT10.ejercicio04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ejercicio05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UT10.ejercicio05.Ejercicio05" />
+      <module name="Ejercicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UT10.ejercicio05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fake.ejercicio02.Ejercicio02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fake.ejercicio02.Ejercicio02" />
+      <module name="Ejercicios" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fake.ejercicio02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.fake.ejercicio02.Ejercicio02" />
+        <item itemvalue="Application.Ejercicio01" />
+        <item itemvalue="Application.Ejercicio05" />
+        <item itemvalue="Application.Ejercicio04" />
+        <item itemvalue="Application.Ejercicio03" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,8 +198,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682883012358</updated>
+      <workItem from="1682883013548" duration="6005000" />
+      <workItem from="1682969117252" duration="3850000" />
+      <workItem from="1683147986322" duration="287000" />
+      <workItem from="1684008673753" duration="12553000" />
+      <workItem from="1684075454660" duration="7978000" />
+      <workItem from="1684153203830" duration="27000" />
+      <workItem from="1684172523875" duration="10826000" />
+      <workItem from="1684346022635" duration="20097000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

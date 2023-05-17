@@ -1,4 +1,4 @@
-package biblioteca;
+package UT7.biblioteca;
 
 public class Libro extends Publicacion implements Prestable {
     private boolean prestado;

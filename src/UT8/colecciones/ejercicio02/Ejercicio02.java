@@ -1,4 +1,4 @@
-package UT8.ejercicio02;
+package UT8.colecciones.ejercicio02;
 
 import java.util.ArrayList;
 import java.util.List;

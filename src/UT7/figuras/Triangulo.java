@@ -1,4 +1,4 @@
-package figuras;
+package UT7.figuras;
 
 import java.util.ArrayList;
 

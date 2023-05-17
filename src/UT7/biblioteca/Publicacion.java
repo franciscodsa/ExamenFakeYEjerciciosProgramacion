@@ -1,4 +1,4 @@
-package biblioteca;
+package UT7.biblioteca;
 
 public abstract class Publicacion {
     int codigo;

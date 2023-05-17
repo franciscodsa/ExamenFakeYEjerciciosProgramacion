@@ -1,4 +1,4 @@
-package empresa;
+package UT7.empresa;
 
 import java.util.ArrayList;
 
@@ -23,10 +23,10 @@ public class Main {
         listaClientes.add(cliente1);
         listaClientes.add(cliente2);
 
-        // Crear empresa
+        // Crear UT7.empresa
         Empresa empresa = new Empresa("Mi Empresa", listaEmpleados, listaClientes);
 
-        // Mostrar información de la empresa
+        // Mostrar información de la UT7.empresa
         empresa.mostrar();
         cliente2.mostrar();
     }

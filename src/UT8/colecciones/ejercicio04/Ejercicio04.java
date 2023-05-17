@@ -1,4 +1,4 @@
-package UT8.ejercicio04;
+package UT8.colecciones.ejercicio04;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package UT8.lambda.ejercicio03;
+package UT8.lambda.comparator;
 
 public class Paciente {
     String nombre;

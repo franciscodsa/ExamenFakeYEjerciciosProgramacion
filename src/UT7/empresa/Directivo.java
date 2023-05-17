@@ -1,4 +1,4 @@
-package empresa;
+package UT7.empresa;
 
 public class Directivo extends Empleado{
     Categoria categoria;

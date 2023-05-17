@@ -1,4 +1,4 @@
-package figuras;
+package UT7.figuras;
 
 public class Linea {
     int dimensiones;

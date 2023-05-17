@@ -1,6 +1,5 @@
-package figuras;
+package UT7.figuras;
 
-import javax.sound.sampled.Line;
 import java.util.ArrayList;
 
 public abstract class Figura2D {
