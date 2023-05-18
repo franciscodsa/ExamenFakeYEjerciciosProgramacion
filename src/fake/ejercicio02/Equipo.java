@@ -66,32 +66,39 @@ public class Equipo {
         String respuesta= "S";
         do {
             Scanner scanner = new Scanner(System.in);
-            System.out.println("Que tipo de jugador quieres añadir? \n" + "   Atacante: A\n   Defensor: D\n   Portero: P");
-            String tipoDeJugador = scanner.nextLine().toUpperCase();
-            String nombre= "jugador";
-            Random random = new Random();
+            System.out.println("Quieres añadir un jugador? S/N");
+            respuesta = scanner.nextLine().toUpperCase();
+            String tipoDeJugador = "";
+            if (respuesta.equals("S")) {
+                System.out.println("Que tipo de jugador quieres añadir? \n" + "   Atacante: A\n   Defensor: D\n   Portero: P");
+                tipoDeJugador = scanner.nextLine().toUpperCase();
+                String nombre = "jugador";
+                Random random = new Random();
 
-            Integer numero = 1;
-            while (numerosEnUso.contains(numero)){
-                numero = generarNumero();
+                Integer numero = 1;
+                while (numerosEnUso.contains(numero)) {
+                    numero = generarNumero();
+                }
+                int goles = random.nextInt(900);
+                int pases = random.nextInt(10000);
+                int recuperadas = random.nextInt(5000);
+                int atajadas = random.nextInt(750);
+                if (tipoDeJugador.equals("A")) {
+                    jugadoresAtacantes.add(new Atacantes(nombre + numero, numero, goles, pases, recuperadas));
+                    this.numerosEnUso.add(numero);
+                } else if (tipoDeJugador.equals("D")) {
+                    jugadoresDefensores.add(new Defensores(nombre + numero, numero, goles, pases, recuperadas));
+                    this.numerosEnUso.add(numero);
+                } else if (tipoDeJugador.equals("P")) {
+                    jugadoresPorteros.add(new Porteros(nombre + numero, numero, goles, atajadas));
+                    this.numerosEnUso.add(numero);
+                } else {
+                    System.out.println("Ingrese una opcion valida");
+                }
             }
-            int goles = random.nextInt(900);
-            int pases = random.nextInt(10000);
-            int recuperadas = random.nextInt(5000);
-            int atajadas = random.nextInt(750);
-            if (tipoDeJugador.equals("A")){
-                jugadoresAtacantes.add(new Atacantes(nombre+numero, numero,goles, pases, recuperadas));
-                this.numerosEnUso.add(numero);
-            } else if (tipoDeJugador.equals("D")) {
-                jugadoresDefensores.add(new Defensores(nombre+numero, numero,goles, pases, recuperadas));
-                this.numerosEnUso.add(numero);
-            } else if (tipoDeJugador.equals("P")) {
-                jugadoresPorteros.add(new Porteros(nombre+numero, numero, goles, atajadas));
-                this.numerosEnUso.add(numero);
-            }else {
-                System.out.println("Ingrese una opcion valida");
-            }
+
         }while (!respuesta.equals("N"));
+
     }
 
     public void añadeJugador(File file){
